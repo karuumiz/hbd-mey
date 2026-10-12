@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Meyy!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Tombol Interaksi Awal -->
+    <div id="startScreen" class="start-screen">
+        <button id="startButton">Klik Dulu Meyy! 🎁</button>
+    </div>
+
+    <!-- File Lagunya (disembunyikan) -->
+    <audio id="myAudio" loop>
+        <source src="img/lagu-kucing.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Konten Utama -->
+    <div class="container" id="content" style="display: none;">
+        <h1 class="bounce-text">HAPPY BIRTHDAY MEYY</h1>
+        
+        <div class="photo-frame">
+            <img src="img/foto-mey.jpeg" alt="Foto Mey" id="mey-photo">
+        </div>
+
+        <div class="greeting-box">
+            <p>Selamat ulang tahun Meyy! 🎉<br>
+            Semoga panjang umur, sehat selalu, dan semoga bisa sempro awal november ini, aamiin. Jangan lupakan ak wahai sobat jomokku.., PEACE!!!✨</p>
+        </div>
+    </div>
+
+    <canvas id="fireworksCanvas"></canvas>
+
+    <!-- Load Script kita -->
+    <script src="js/script.js"></script>
+</body>
+</html>
